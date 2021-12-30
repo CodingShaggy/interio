@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #3c1053;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, #ffffff, #3c1053);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 3%;
+    margin-bottom : 20px;;
+}
+
+ul li{
+   font-weight: bold; 
+   color: white;
+   font-family: Segoe UI;
+   display: inline-block;
+   margin-right: 20px;
+}
+
+ a{
+    text-decoration: none;
+}
+h1{
+    color: #000839;
+    font-family: Segoe UI; 
+    font-weight: normal;
+    text-align: center;
+    padding: 1%;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.gif{
+    width: 300px;
+    height: auto;
+}
+
+.gallery{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f8f9fa;
+}
+
+img{
+    width: 290px;
+    height: auto;
+    margin-top: 2%;
+    border: 5px solid #3c1053;
+    margin-bottom: 10px;
+}
+.text{
+    color: #000839;
+    font-family: Segoe UI; 
+    font-weight: normal;
+    font-size: 20px;
+    padding: 3%;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+.text a{
+    text-decoration: none;
+    color: #000839;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #ffffff, #B983FF);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0;
+    
+}
+.contact{
+    width: 100px;
+    height: 50px;
+   /* background-color: thistle;*/
+   color: white;
+    margin-left:2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact p{
+    color: white;
+}
+.social-icon{
+    width: 100px;
+    height: 50px;
+    /* background-color: thistle;*/
+    margin-right:2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon{
+    width: 20% ;
+    height: auto;
+    border-radius: 5px;
+}
+
+.fb{
+    width: 20px ;
+    height: 20px; 
+    background-image: url(images/facebooook.png); 
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+}
+
+.insta{
+    width: 20px ;
+    height: 20px; 
+    background-image: url(images/instu.png); 
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+}
+.call{
+    width: 20px ;
+    height: 20px; 
+    background-image: url(images/calll.png); 
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+}
+.email{
+    width: 20px ;
+    height: 20px; 
+    background-image: url(images/emaill.png); 
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+}
+
+@media (max-width : 500px) {
+    ul li{
+        font-weight: bold; 
+        color: white;
+        font-family: Segoe UI;
+        margin-right: 20px;
+        margin-left: 20px;
+        display: block;
+     } 
+    
+}
+
+
+
+.interiordesign{
+    width: 100%;
+    height: auto;
+    /* background-color: thistle;*/
+    margin :2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.landscapedesign{
+    width: 100%;
+    height: auto;
+    /* background-color: thistle;*/
+    margin :2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.corporate{
+    width: 100%;
+    height: auto;
+    /* background-color: thistle;*/
+    margin :2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.dm{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.para{
+    width: 300px;
+    height: auto;
+    font-size: 18px;
+    font-weight: normal; 
+    color: #000839;
+    font-family: Segoe UI;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+.container1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+width: 250px;
+height: 200px;
+background-color: #3c1053;
+font-size: 18px;
+border-radius: 10px;
+font-family: Segoe UI;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.h3{
+color: #3c1053;
+font-size: 20px;
+font-weight: bold;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.area{
+    background-color: #f8f9fa;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+video{
+    height: auto;
+    width: 290px;
+    border: 5px solid #3c1053;
+}
